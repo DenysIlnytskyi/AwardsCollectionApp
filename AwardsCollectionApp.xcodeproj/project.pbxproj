@@ -14,6 +14,7 @@
 		86AB32C928B163E500E36A83 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32C828B163E500E36A83 /* GradientRectangles.swift */; };
 		86AB32CB28B1683D00E36A83 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32CA28B1683D00E36A83 /* AwardsView.swift */; };
 		86AB32CD28B16A9300E36A83 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32CC28B16A9300E36A83 /* PathView.swift */; };
+		86AB32CF28B179CE00E36A83 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32CE28B179CE00E36A83 /* CurvesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		86AB32C828B163E500E36A83 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		86AB32CA28B1683D00E36A83 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		86AB32CC28B16A9300E36A83 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		86AB32CE28B179CE00E36A83 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				86AB32BA28B162EF00E36A83 /* AwardsCollectionAppApp.swift */,
 				86AB32BC28B162EF00E36A83 /* ContentView.swift */,
 				86AB32CA28B1683D00E36A83 /* AwardsView.swift */,
+				86AB32CE28B179CE00E36A83 /* CurvesView.swift */,
 				86AB32CC28B16A9300E36A83 /* PathView.swift */,
 				86AB32C828B163E500E36A83 /* GradientRectangles.swift */,
 				86AB32BE28B162F000E36A83 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AB32CF28B179CE00E36A83 /* CurvesView.swift in Sources */,
 				86AB32CD28B16A9300E36A83 /* PathView.swift in Sources */,
 				86AB32CB28B1683D00E36A83 /* AwardsView.swift in Sources */,
 				86AB32BD28B162EF00E36A83 /* ContentView.swift in Sources */,
