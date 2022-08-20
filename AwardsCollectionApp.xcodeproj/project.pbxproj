@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86AB32BB28B162EF00E36A83 /* AwardsColectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32BA28B162EF00E36A83 /* AwardsColectionAppApp.swift */; };
+		86AB32BB28B162EF00E36A83 /* AwardsCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32BA28B162EF00E36A83 /* AwardsCollectionAppApp.swift */; };
 		86AB32BD28B162EF00E36A83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32BC28B162EF00E36A83 /* ContentView.swift */; };
 		86AB32BF28B162F000E36A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32BE28B162F000E36A83 /* Assets.xcassets */; };
 		86AB32C228B162F000E36A83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C128B162F000E36A83 /* Preview Assets.xcassets */; };
+		86AB32C928B163E500E36A83 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32C828B163E500E36A83 /* GradientRectangles.swift */; };
+		86AB32CB28B1683D00E36A83 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32CA28B1683D00E36A83 /* AwardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86AB32B728B162EF00E36A83 /* AwardsColectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsColectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		86AB32BA28B162EF00E36A83 /* AwardsColectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsColectionAppApp.swift; sourceTree = "<group>"; };
+		86AB32B728B162EF00E36A83 /* AwardsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AB32BA28B162EF00E36A83 /* AwardsCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionAppApp.swift; sourceTree = "<group>"; };
 		86AB32BC28B162EF00E36A83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86AB32BE28B162F000E36A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86AB32C128B162F000E36A83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86AB32C828B163E500E36A83 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		86AB32CA28B1683D00E36A83 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,7 @@
 		86AB32B828B162EF00E36A83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86AB32B728B162EF00E36A83 /* AwardsColectionApp.app */,
+				86AB32B728B162EF00E36A83 /* AwardsCollectionApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +55,10 @@
 		86AB32B928B162EF00E36A83 /* AwardsColectionApp */ = {
 			isa = PBXGroup;
 			children = (
-				86AB32BA28B162EF00E36A83 /* AwardsColectionAppApp.swift */,
+				86AB32BA28B162EF00E36A83 /* AwardsCollectionAppApp.swift */,
 				86AB32BC28B162EF00E36A83 /* ContentView.swift */,
+				86AB32CA28B1683D00E36A83 /* AwardsView.swift */,
+				86AB32C828B163E500E36A83 /* GradientRectangles.swift */,
 				86AB32BE28B162F000E36A83 /* Assets.xcassets */,
 				86AB32C028B162F000E36A83 /* Preview Content */,
 			);
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86AB32B628B162EF00E36A83 /* AwardsColectionApp */ = {
+		86AB32B628B162EF00E36A83 /* AwardsCollectionApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86AB32C528B162F000E36A83 /* Build configuration list for PBXNativeTarget "AwardsColectionApp" */;
+			buildConfigurationList = 86AB32C528B162F000E36A83 /* Build configuration list for PBXNativeTarget "AwardsCollectionApp" */;
 			buildPhases = (
 				86AB32B328B162EF00E36A83 /* Sources */,
 				86AB32B428B162EF00E36A83 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = AwardsColectionApp;
+			name = AwardsCollectionApp;
 			productName = AwardsColectionApp;
-			productReference = 86AB32B728B162EF00E36A83 /* AwardsColectionApp.app */;
+			productReference = 86AB32B728B162EF00E36A83 /* AwardsCollectionApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86AB32B228B162EF00E36A83 /* Build configuration list for PBXProject "AwardsColectionApp" */;
+			buildConfigurationList = 86AB32B228B162EF00E36A83 /* Build configuration list for PBXProject "AwardsCollectionApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86AB32B628B162EF00E36A83 /* AwardsColectionApp */,
+				86AB32B628B162EF00E36A83 /* AwardsCollectionApp */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AB32CB28B1683D00E36A83 /* AwardsView.swift in Sources */,
 				86AB32BD28B162EF00E36A83 /* ContentView.swift in Sources */,
-				86AB32BB28B162EF00E36A83 /* AwardsColectionAppApp.swift in Sources */,
+				86AB32BB28B162EF00E36A83 /* AwardsCollectionAppApp.swift in Sources */,
+				86AB32C928B163E500E36A83 /* GradientRectangles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86AB32B228B162EF00E36A83 /* Build configuration list for PBXProject "AwardsColectionApp" */ = {
+		86AB32B228B162EF00E36A83 /* Build configuration list for PBXProject "AwardsCollectionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86AB32C328B162F000E36A83 /* Debug */,
@@ -329,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86AB32C528B162F000E36A83 /* Build configuration list for PBXNativeTarget "AwardsColectionApp" */ = {
+		86AB32C528B162F000E36A83 /* Build configuration list for PBXNativeTarget "AwardsCollectionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86AB32C628B162F000E36A83 /* Debug */,
